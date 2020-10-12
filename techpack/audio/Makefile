@@ -47,5 +47,3 @@ obj-y += asoc/
 obj-y += dsp/
 obj-y += ipc/
 obj-y += soc/
-
-KBUILD_CFLAGS += $(call cc-disable-warning, misleading-indentation)
